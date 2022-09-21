@@ -1,0 +1,31 @@
+ Expanded(
+                child: Calendar(
+                  initialDate: selectedDay,
+                  startOnMonday: true,
+                  selectedColor: Colors.blue,
+                  todayColor: Colors.red,
+                  eventColor: Colors.green,
+                  eventDoneColor: Colors.amber,
+                  bottomBarColor: Colors.deepOrange,
+                  onRangeSelected: (range) {
+                    print('selected Day ${range.from},${range.to}');
+                  },
+                  onDateSelected: (date){
+                    return _handleData(date);
+                  },
+                  events: events,
+                  isExpanded: true,
+                  // ignore: prefer_const_constructors
+                  dayOfWeekStyle: TextStyle(
+                    fontSize: 15,
+                    color: Colors.black12,
+                    fontWeight: FontWeight.w100,
+                  ),
+                  bottomBarTextStyle: const TextStyle(
+                    color: Colors.white,
+                  ),
+                  hideBottomBar: true,
+                  hideArrows: true,
+                  weekDays: const ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'],
+                ),
+              ),
