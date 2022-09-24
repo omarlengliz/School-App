@@ -1,16 +1,17 @@
-# testschool
+#  School App Clone
 
-A new Flutter project.
+A simple  school app  clone using Flutter from [Figma](https://www.figma.com/community/file/1034443087008939645) 
+# How It Works
 
-## Getting Started
+ 1. Run cd   School-App  command on your terminal 
+ 2. Run  dart pub get command on your terminal  to get all dependencies  used  
+ 3. Run flutter run on your terminal 
 
-This project is a starting point for a Flutter application.
+ # **Technologies**
 
-A few resources to get you started if this is your first Flutter project:
+>  Flutter
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ 
+![image](https://drive.google.com/uc?export=view&id=1RCh0AyMsm-HzheLGzZT8Lem2UEP5OM3a)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://drive.google.com/uc?export=view&id=10jn9R2HfvyHE1MTSklaaHoAC-IWJdDZx)
